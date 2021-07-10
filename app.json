@@ -10,7 +10,7 @@
     "manager",
     "3"
   ],
-  "repository": "hhttps://github.com/FayasKKD/Miss-Rose-Bot",
+  "repository": "hhttps://github.com/mtdot/Miss-Rose-Bot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -75,6 +75,10 @@
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
       "value": "CAACAgQAAxkBAAEHAedfwdK1GHtSZe1Q0F0q6vWRsxL91gAC-QgAAoThEVJCGmPkkeA1_R4E"
+    },
+    "SQLALCHEMY_DATABASE_URI": {
+      "description": "Due to SQLALCHEMY stop using `postgres` prefix, set this variable same as DATABASE_URL but using prefix `postgresql`",
+      "value": ""
     }
   },
   "addons": [
